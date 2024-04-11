@@ -1,0 +1,299 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link
+	Log files: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.link_summary, at Sat Dec  9 12:02:06 2023
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sat Dec  9 12:02:06 2023
+INFO: [v++ 60-1315] Creating rulecheck session with output '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/v++_link_Bert_layer.link_guidance.html', at Sat Dec  9 12:02:09 2023
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [12:03:20] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_1.xo --xo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_2.xo --xo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_3.xo -keep --config /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --target hw --output_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --temp_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Sat Dec  9 12:03:23 2023
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_1.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_2.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_3.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [12:03:54] build_xd_ip_db started: /opt/xilinx/2022.1/Vitis/2022.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/hw.hpfm -clkid 0 -ip /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_1_1_0,Bert_layer_dataflow_region_1 -ip /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_2_1_0,Bert_layer_dataflow_region_2 -ip /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_3_1_0,Bert_layer_dataflow_region_3 -o /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [12:04:05] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 93837 ; free virtual = 203109
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [12:04:05] cfgen started: /opt/xilinx/2022.1/Vitis/2022.1/bin/cfgen  -sc Bert_layer_dataflow_region_1_1.outp_k:Bert_layer_dataflow_region_2_1.outp_k:16 -sc Bert_layer_dataflow_region_1_1.outp_v:Bert_layer_dataflow_region_2_1.outp_v:16 -sc Bert_layer_dataflow_region_1_1.outp_q:Bert_layer_dataflow_region_2_1.outp_q:16 -sc Bert_layer_dataflow_region_1_1.outp_inp:Bert_layer_dataflow_region_2_1.outp_inp:16 -sc Bert_layer_dataflow_region_2_1.outp_ln0:Bert_layer_dataflow_region_3_1.outp_ln0:16 -slr Bert_layer_dataflow_region_1_1:SLR0 -slr Bert_layer_dataflow_region_2_1:SLR1 -slr Bert_layer_dataflow_region_3_1:SLR2 -sp Bert_layer_dataflow_region_1_1.inp_addr_0:HBM[0] -sp Bert_layer_dataflow_region_1_1.inp_addr_1:HBM[0] -sp Bert_layer_dataflow_region_1_1.inp_addr_2:HBM[0] -sp Bert_layer_dataflow_region_1_1.wk_addr:HBM[1] -sp Bert_layer_dataflow_region_1_1.wv_addr:HBM[2] -sp Bert_layer_dataflow_region_1_1.wq_addr:HBM[3] -sp Bert_layer_dataflow_region_2_1.w_ds0_addr:HBM[4] -sp Bert_layer_dataflow_region_3_1.w_ds1_addr:HBM[5] -sp Bert_layer_dataflow_region_3_1.w_ds2_addr:HBM[6] -sp Bert_layer_dataflow_region_3_1.outp_addr:HBM[0] -dmclkid 0 -r /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1, num: 1  {Bert_layer_dataflow_region_1_1}
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_2, num: 1  {Bert_layer_dataflow_region_2_1}
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3, num: 1  {Bert_layer_dataflow_region_3_1}
+INFO: [CFGEN 83-0] Port Specs: 
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_0, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_1, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_2, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wk_addr, sptag: HBM[1]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wv_addr, sptag: HBM[2]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wq_addr, sptag: HBM[3]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_2_1, k_port: w_ds0_addr, sptag: HBM[4]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds1_addr, sptag: HBM[5]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds2_addr, sptag: HBM[6]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: outp_addr, sptag: HBM[0]
+INFO: [CFGEN 83-0] Stream Specs: 
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_k => Bert_layer_dataflow_region_2_1.outp_k
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_v => Bert_layer_dataflow_region_2_1.outp_v
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_q => Bert_layer_dataflow_region_2_1.outp_q
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_inp => Bert_layer_dataflow_region_2_1.outp_inp
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_2_1.outp_ln0 => Bert_layer_dataflow_region_3_1.outp_ln0
+INFO: [CFGEN 83-0] SLR Specs: 
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_1_1, SLR: SLR0
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_2_1, SLR: SLR1
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_3_1, SLR: SLR2
+INFO: [SYSTEM_LINK 82-37] [12:04:17] cfgen finished successfully
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 93841 ; free virtual = 203113
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [12:04:17] cf2bd started: /opt/xilinx/2022.1/Vitis/2022.1/bin/cf2bd  --linux --trace_buffer 1024 --input_file /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.xsd --temp_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link --output_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [12:04:30] cf2bd finished successfully
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 94238 ; free virtual = 203514
+INFO: [v++ 60-1441] [12:04:30] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:43 ; elapsed = 00:01:10 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 94279 ; free virtual = 203555
+INFO: [v++ 60-1443] [12:04:30] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/sdsl.dat -rtd /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/cf2sw.rtd -nofilter /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/cf2sw_full.rtd -xclbin /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.xml -o /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [12:04:46] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 94279 ; free virtual = 203557
+INFO: [v++ 60-1443] [12:04:46] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [12:04:48] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 94252 ; free virtual = 203530
+INFO: [v++ 60-1443] [12:04:48] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --kernel_frequency 245 --remote_ip_cache /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/.ipcache -s --output_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --log_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link --report_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link --config /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/vplConfig.ini -k /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link --no-info --iprepo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_3_1_0 --iprepo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_2_1_0 --iprepo /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_1_1_0 --messageDb /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link/vpl.pb /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+
+****** vpl v2022.1.2 (64-bit)
+  **** SW Build 3602371 on 2022-08-02-23:13:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2022.1
+INFO: [VPL 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [VPL 60-1032] Extracting hardware platform to /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/vivado/vpl/.local/hw_platform
+[12:05:13] Run vpl: Step create_project: Started
+Creating Vivado project.
+[12:05:21] Run vpl: Step create_project: Completed
+[12:05:21] Run vpl: Step create_bd: Started
+[12:06:16] Run vpl: Step create_bd: Completed
+[12:06:16] Run vpl: Step update_bd: Started
+[12:06:17] Run vpl: Step update_bd: Completed
+[12:06:17] Run vpl: Step generate_target: Started
+[12:07:34] Run vpl: Step generate_target: RUNNING...
+[12:08:53] Run vpl: Step generate_target: RUNNING...
+[12:08:56] Run vpl: Step generate_target: Completed
+[12:08:56] Run vpl: Step config_hw_runs: Started
+[12:09:05] Run vpl: Step config_hw_runs: Completed
+[12:09:05] Run vpl: Step synth: Started
+[12:11:11] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[12:11:43] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[12:12:14] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[12:12:45] Block-level synthesis in progress, 1 of 3 jobs complete, 0 jobs running.
+[12:12:47] Run vpl: Step synth: Completed
+[12:12:47] Run vpl: Step impl: Started
+[12:39:43] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 34m 53s 
+
+[12:39:43] Starting logic optimization..
+[12:42:49] Phase 1 Retarget
+[12:43:21] Phase 2 Constant propagation
+[12:44:23] Phase 3 Sweep
+[12:45:56] Phase 4 BUFG optimization
+[12:46:58] Phase 5 Shift Register Optimization
+[12:46:58] Phase 6 Post Processing Netlist
+[12:52:09] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 12m 26s 
+
+[12:52:09] Starting logic placement..
+[12:54:13] Phase 1 Placer Initialization
+[12:54:13] Phase 1.1 Placer Initialization Netlist Sorting
+[12:59:55] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[13:02:30] Phase 1.3 Build Placer Netlist Model
+[13:10:17] Phase 1.4 Constrain Clocks/Macros
+[13:12:21] Phase 2 Global Placement
+[13:12:21] Phase 2.1 Floorplanning
+[13:14:25] Phase 2.1.1 Partition Driven Placement
+[13:14:25] Phase 2.1.1.1 PBP: Partition Driven Placement
+[13:19:06] Phase 2.1.1.2 PBP: Clock Region Placement
+[13:22:14] Phase 2.1.1.3 PBP: Discrete Incremental
+[13:22:14] Phase 2.1.1.4 PBP: Compute Congestion
+[13:22:46] Phase 2.1.1.5 PBP: Macro Placement
+[13:22:46] Phase 2.1.1.6 PBP: UpdateTiming
+[13:23:49] Phase 2.1.1.7 PBP: Add part constraints
+[13:24:51] Phase 2.2 Physical Synthesis After Floorplan
+[13:26:25] Phase 2.3 Update Timing before SLR Path Opt
+[13:26:25] Phase 2.4 Post-Processing in Floorplanning
+[13:26:57] Phase 2.5 Global Placement Core
+[13:57:51] Phase 2.5.1 Physical Synthesis In Placer
+[14:12:30] Phase 3 Detail Placement
+[14:13:02] Phase 3.1 Commit Multi Column Macros
+[14:13:33] Phase 3.2 Commit Most Macros & LUTRAMs
+[14:25:04] Phase 3.3 Small Shape DP
+[14:25:04] Phase 3.3.1 Small Shape Clustering
+[14:26:07] Phase 3.3.2 Flow Legalize Slice Clusters
+[14:26:07] Phase 3.3.3 Slice Area Swap
+[14:26:39] Phase 3.3.3.1 Slice Area Swap Initial
+[14:32:24] Phase 3.4 Place Remaining
+[14:32:24] Phase 3.5 Re-assign LUT pins
+[14:39:44] Phase 3.6 Pipeline Register Optimization
+[14:39:44] Phase 3.7 Fast Optimization
+[14:43:24] Phase 4 Post Placement Optimization and Clean-Up
+[14:43:24] Phase 4.1 Post Commit Optimization
+[14:49:09] Phase 4.1.1 Post Placement Optimization
+[14:50:12] Phase 4.1.1.1 BUFG Insertion
+[14:50:12] Phase 1 Physical Synthesis Initialization
+[14:53:21] Phase 4.1.1.2 BUFG Replication
+[14:53:21] Phase 4.1.1.3 Post Placement Timing Optimization
+[15:00:40] Phase 4.1.1.4 Replication
+[15:03:16] Phase 4.2 Post Placement Cleanup
+[15:03:48] Phase 4.3 Placer Reporting
+[15:03:48] Phase 4.3.1 Print Estimated Congestion
+[15:04:19] Phase 4.4 Final Placement Cleanup
+[15:14:16] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 02h 22m 06s 
+
+[15:14:16] Starting logic routing..
+[15:17:24] Phase 1 Build RT Design
+[15:25:16] Phase 2 Router Initialization
+[15:25:16] Phase 2.1 Fix Topology Constraints
+[15:26:18] Phase 2.2 Pre Route Cleanup
+[15:27:21] Phase 2.3 Global Clock Net Routing
+[15:29:58] Phase 2.4 Update Timing
+[15:38:20] Phase 2.5 Update Timing for Bus Skew
+[15:38:20] Phase 2.5.1 Update Timing
+[15:42:31] Phase 3 Initial Routing
+[15:42:31] Phase 3.1 Global Routing
+[15:47:14] Phase 4 Rip-up And Reroute
+[15:47:14] Phase 4.1 Global Iteration 0
+[16:18:14] Phase 4.2 Global Iteration 1
+[16:26:36] Phase 4.3 Global Iteration 2
+[16:31:19] Phase 4.4 Global Iteration 3
+[16:34:58] Phase 5 Delay and Skew Optimization
+[16:34:58] Phase 5.1 Delay CleanUp
+[16:34:58] Phase 5.1.1 Update Timing
+[16:39:10] Phase 5.2 Clock Skew Optimization
+[16:40:44] Phase 6 Post Hold Fix
+[16:40:44] Phase 6.1 Hold Fix Iter
+[16:40:44] Phase 6.1.1 Update Timing
+[16:45:38] Phase 6.1.2 Lut RouteThru Assignment for hold
+[16:47:13] Phase 6.2 Additional Hold Fix
+[16:52:58] Phase 7 Leaf Clock Prog Delay Opt
+[16:56:38] Phase 8 Route finalize
+[16:57:41] Phase 9 Verifying routed nets
+[16:58:44] Phase 10 Depositing Routes
+[17:01:20] Phase 11 Resolve XTalk
+[17:02:23] Phase 12 Post Router Timing
+[17:03:57] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 01h 49m 41s 
+
+[17:03:57] Starting bitstream generation..
+Starting optional post-route physical design optimization.
+Finished optional post-route physical design optimization.
+[17:45:52] Creating bitmap...
+[17:55:18] Writing bitstream ./level0_i_ulp_my_rm_partial.bit...
+[17:55:18] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 51m 20s 
+[17:55:35] Run vpl: Step impl: Completed
+[17:55:36] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [17:55:37] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:04:48 ; elapsed = 05:50:49 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 88765 ; free virtual = 200582
+INFO: [v++ 60-1443] [17:55:37] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_01' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'hbm_aclk' (clock ID '') is being mapped to clock name 'hbm_aclk' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): System (SYSTEM) clock: hbm_aclk = 450, Kernel (KERNEL) clock: ulp_ucs/aclk_kernel_01 = 500, Kernel (DATA) clock: ulp_ucs/aclk_kernel_00 = 245
+INFO: [v++ 60-1453] Command Line: cf2sw -a /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/address_map.xml -sdsl /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/sdsl.dat -xclbin /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.xml -rtd /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.rtd -o /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [17:55:51] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 91658 ; free virtual = 203475
+INFO: [v++ 60-1443] [17:55:51] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section BITSTREAM:RAW:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.rtd --append-section :JSON:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_xml.rtd --add-section BUILD_METADATA:JSON:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_build.rtd --add-section EMBEDDED_METADATA:RAW:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml --add-section SYSTEM_METADATA:RAW:/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u280_gen3x16_xdma_1_202211_1 --output /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+XRT Build Version: 2.13.479 (2022.1)
+       Build Date: 2022-06-25 09:05:04
+          Hash ID: 5e92a513c6950e79638b1a879ddb882da34fc683
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 77035832 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 410 bytes
+Format : JSON
+File   : '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 9539 bytes
+Format : JSON
+File   : '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 1210746 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 52339 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (78350366 bytes) to the output file: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [17:55:52] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.75 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 91658 ; free virtual = 203476
+INFO: [v++ 60-1443] [17:55:52] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.info --input /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [17:55:53] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:01 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 91658 ; free virtual = 203476
+INFO: [v++ 60-1443] [17:55:53] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [17:55:53] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2300.715 ; gain = 0.000 ; free physical = 91659 ; free virtual = 203476
+INFO: [v++ 60-2331] SLR0 was specfied for compute unit Bert_layer_dataflow_region_1_1, and verified as such in implementation.
+INFO: [v++ 60-2331] SLR1 was specfied for compute unit Bert_layer_dataflow_region_2_1, and verified as such in implementation.
+INFO: [v++ 60-2331] SLR2 was specfied for compute unit Bert_layer_dataflow_region_3_1, and verified as such in implementation.
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/system_estimate_Bert_layer.link.xtxt
+INFO: [v++ 60-586] Created /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.ltx
+INFO: [v++ 60-586] Created ./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/v++_link_Bert_layer.link_guidance.html
+	Timing Report: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link/vivado.log
+	Steps Log File: /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /work/shared/users/ugrad/user_zjh/bert_dataflow_weight_offchip_12L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 5h 55m 19s
