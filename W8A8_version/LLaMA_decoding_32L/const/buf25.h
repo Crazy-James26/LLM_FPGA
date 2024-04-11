@@ -1,0 +1,1 @@
+static const float buf25 = 0.055150;
