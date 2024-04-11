@@ -1,0 +1,390 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link
+	Log files: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.link_summary, at Sun Dec 10 12:56:09 2023
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sun Dec 10 12:56:09 2023
+INFO: [v++ 60-1315] Creating rulecheck session with output '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/v++_link_Bert_layer.link_guidance.html', at Sun Dec 10 12:56:11 2023
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [12:58:50] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_1.xo --xo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_2.xo --xo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_3.xo -keep --config /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --target hw --output_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --temp_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Sun Dec 10 12:58:52 2023
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_1.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_2.xo
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/bert_region_3.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [12:59:39] build_xd_ip_db started: /opt/xilinx/2022.1/Vitis/2022.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/hw.hpfm -clkid 0 -ip /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_1_1_0,Bert_layer_dataflow_region_1 -ip /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_2_1_0,Bert_layer_dataflow_region_2 -ip /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/iprepo/xilinx_com_hls_Bert_layer_dataflow_region_3_1_0,Bert_layer_dataflow_region_3 -o /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [12:59:49] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 95064 ; free virtual = 203985
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [12:59:49] cfgen started: /opt/xilinx/2022.1/Vitis/2022.1/bin/cfgen  -sc Bert_layer_dataflow_region_1_1.outp_k:Bert_layer_dataflow_region_2_1.outp_k:16 -sc Bert_layer_dataflow_region_1_1.outp_v:Bert_layer_dataflow_region_2_1.outp_v:16 -sc Bert_layer_dataflow_region_1_1.outp_q:Bert_layer_dataflow_region_2_1.outp_q:16 -sc Bert_layer_dataflow_region_1_1.outp_inp:Bert_layer_dataflow_region_2_1.outp_inp:16 -sc Bert_layer_dataflow_region_2_1.outp_ln0:Bert_layer_dataflow_region_3_1.outp_ln0:16 -slr Bert_layer_dataflow_region_1_1:SLR0 -slr Bert_layer_dataflow_region_2_1:SLR1 -slr Bert_layer_dataflow_region_3_1:SLR2 -sp Bert_layer_dataflow_region_1_1.inp_addr_0:HBM[0] -sp Bert_layer_dataflow_region_1_1.inp_addr_1:HBM[0] -sp Bert_layer_dataflow_region_1_1.inp_addr_2:HBM[0] -sp Bert_layer_dataflow_region_1_1.wk_addr_0:HBM[1] -sp Bert_layer_dataflow_region_1_1.wk_addr_1:HBM[2] -sp Bert_layer_dataflow_region_1_1.wv_addr_0:HBM[3] -sp Bert_layer_dataflow_region_1_1.wv_addr_1:HBM[4] -sp Bert_layer_dataflow_region_1_1.wq_addr_0:HBM[5] -sp Bert_layer_dataflow_region_1_1.wq_addr_1:HBM[6] -sp Bert_layer_dataflow_region_2_1.w_ds0_addr_0:HBM[7] -sp Bert_layer_dataflow_region_2_1.w_ds0_addr_1:HBM[8] -sp Bert_layer_dataflow_region_3_1.w_ds1_addr_0:HBM[9] -sp Bert_layer_dataflow_region_3_1.w_ds1_addr_1:HBM[10] -sp Bert_layer_dataflow_region_3_1.w_ds1_addr_2:HBM[11] -sp Bert_layer_dataflow_region_3_1.w_ds1_addr_3:HBM[12] -sp Bert_layer_dataflow_region_3_1.w_ds2_addr_0:HBM[13] -sp Bert_layer_dataflow_region_3_1.w_ds2_addr_1:HBM[14] -sp Bert_layer_dataflow_region_3_1.w_ds2_addr_2:HBM[15] -sp Bert_layer_dataflow_region_3_1.w_ds2_addr_3:HBM[16] -sp Bert_layer_dataflow_region_3_1.outp_addr:HBM[0] -dmclkid 0 -r /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1, num: 1  {Bert_layer_dataflow_region_1_1}
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_2, num: 1  {Bert_layer_dataflow_region_2_1}
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3, num: 1  {Bert_layer_dataflow_region_3_1}
+INFO: [CFGEN 83-0] Port Specs: 
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_0, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_1, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: inp_addr_2, sptag: HBM[0]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wk_addr_0, sptag: HBM[1]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wk_addr_1, sptag: HBM[2]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wv_addr_0, sptag: HBM[3]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wv_addr_1, sptag: HBM[4]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wq_addr_0, sptag: HBM[5]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_1_1, k_port: wq_addr_1, sptag: HBM[6]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_2_1, k_port: w_ds0_addr_0, sptag: HBM[7]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_2_1, k_port: w_ds0_addr_1, sptag: HBM[8]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds1_addr_0, sptag: HBM[9]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds1_addr_1, sptag: HBM[10]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds1_addr_2, sptag: HBM[11]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds1_addr_3, sptag: HBM[12]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds2_addr_0, sptag: HBM[13]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds2_addr_1, sptag: HBM[14]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds2_addr_2, sptag: HBM[15]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: w_ds2_addr_3, sptag: HBM[16]
+INFO: [CFGEN 83-0]   kernel: Bert_layer_dataflow_region_3_1, k_port: outp_addr, sptag: HBM[0]
+INFO: [CFGEN 83-0] Stream Specs: 
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_k => Bert_layer_dataflow_region_2_1.outp_k
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_v => Bert_layer_dataflow_region_2_1.outp_v
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_q => Bert_layer_dataflow_region_2_1.outp_q
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_1_1.outp_inp => Bert_layer_dataflow_region_2_1.outp_inp
+INFO: [CFGEN 83-0]   Bert_layer_dataflow_region_2_1.outp_ln0 => Bert_layer_dataflow_region_3_1.outp_ln0
+INFO: [CFGEN 83-0] SLR Specs: 
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_1_1, SLR: SLR0
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_2_1, SLR: SLR1
+INFO: [CFGEN 83-0]   instance: Bert_layer_dataflow_region_3_1, SLR: SLR2
+INFO: [SYSTEM_LINK 82-37] [13:00:02] cfgen finished successfully
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 95060 ; free virtual = 203981
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [13:00:02] cf2bd started: /opt/xilinx/2022.1/Vitis/2022.1/bin/cf2bd  --linux --trace_buffer 1024 --input_file /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.xsd --temp_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link --output_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [13:00:17] cf2bd finished successfully
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2314.934 ; gain = 0.000 ; free physical = 95056 ; free virtual = 203983
+INFO: [v++ 60-1441] [13:00:17] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:46 ; elapsed = 00:01:27 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 95097 ; free virtual = 204024
+INFO: [v++ 60-1443] [13:00:17] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/sdsl.dat -rtd /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/cf2sw.rtd -nofilter /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/cf2sw_full.rtd -xclbin /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.xml -o /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [13:00:35] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 95100 ; free virtual = 204028
+INFO: [v++ 60-1443] [13:00:35] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [13:00:36] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 95060 ; free virtual = 203989
+INFO: [v++ 60-1443] [13:00:36] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --kernel_frequency 250 --remote_ip_cache /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/.ipcache -s --output_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int --log_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link --report_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link --config /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/vplConfig.ini -k /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link --no-info --iprepo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_3_1_0 --iprepo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_2_1_0 --iprepo /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xo/ip_repo/xilinx_com_hls_Bert_layer_dataflow_region_1_1_0 --messageDb /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link/vpl.pb /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+
+****** vpl v2022.1.2 (64-bit)
+  **** SW Build 3602371 on 2022-08-02-23:13:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2022.1
+INFO: [VPL 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [VPL 60-1032] Extracting hardware platform to /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/vivado/vpl/.local/hw_platform
+[13:01:04] Run vpl: Step create_project: Started
+Creating Vivado project.
+[13:01:10] Run vpl: Step create_project: Completed
+[13:01:10] Run vpl: Step create_bd: Started
+[13:02:14] Run vpl: Step create_bd: Completed
+[13:02:14] Run vpl: Step update_bd: Started
+[13:02:15] Run vpl: Step update_bd: Completed
+[13:02:15] Run vpl: Step generate_target: Started
+[13:03:31] Run vpl: Step generate_target: RUNNING...
+[13:04:49] Run vpl: Step generate_target: RUNNING...
+[13:05:58] Run vpl: Step generate_target: Completed
+[13:05:58] Run vpl: Step config_hw_runs: Started
+[13:06:04] Run vpl: Step config_hw_runs: Completed
+[13:06:04] Run vpl: Step synth: Started
+[13:07:10] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:07:41] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:08:12] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:08:44] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:09:15] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:09:46] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:10:18] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:10:49] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:11:20] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:11:51] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:12:23] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:12:54] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:13:25] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:13:57] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:14:28] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:14:59] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:15:31] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:16:02] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:16:33] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:17:05] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:17:36] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:18:07] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:18:38] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:19:10] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:19:41] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:20:12] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:20:44] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:21:15] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:21:46] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:22:18] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:22:49] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:23:20] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:23:51] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:24:23] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:24:54] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:25:26] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:25:57] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:26:29] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:27:00] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:27:31] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:28:03] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:28:34] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:29:05] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:29:37] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:30:08] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:30:39] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:31:11] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:31:42] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:32:13] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:32:45] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:33:16] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:33:47] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:34:19] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:34:50] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:35:21] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:35:53] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:36:24] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:36:56] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:37:27] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:37:58] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:38:30] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:39:01] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:39:33] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:40:04] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:40:36] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:41:07] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:41:38] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:42:10] Block-level synthesis in progress, 0 of 3 jobs complete, 1 job running.
+[13:42:41] Block-level synthesis in progress, 1 of 3 jobs complete, 0 jobs running.
+[13:43:12] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[13:43:44] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[13:44:15] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[13:44:47] Block-level synthesis in progress, 1 of 3 jobs complete, 1 job running.
+[13:45:03] Run vpl: Step synth: Completed
+[13:45:03] Run vpl: Step impl: Started
+[14:07:34] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 01h 06m 56s 
+
+[14:07:34] Starting logic optimization..
+[14:10:11] Phase 1 Retarget
+[14:10:43] Phase 2 Constant propagation
+[14:11:14] Phase 3 Sweep
+[14:13:20] Phase 4 BUFG optimization
+[14:13:51] Phase 5 Shift Register Optimization
+[14:14:22] Phase 6 Post Processing Netlist
+[14:18:34] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 10m 59s 
+
+[14:18:34] Starting logic placement..
+[14:20:39] Phase 1 Placer Initialization
+[14:20:39] Phase 1.1 Placer Initialization Netlist Sorting
+[14:25:53] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[14:27:59] Phase 1.3 Build Placer Netlist Model
+[14:33:44] Phase 1.4 Constrain Clocks/Macros
+[14:35:18] Phase 2 Global Placement
+[14:35:18] Phase 2.1 Floorplanning
+[14:36:52] Phase 2.1.1 Partition Driven Placement
+[14:36:52] Phase 2.1.1.1 PBP: Partition Driven Placement
+[14:41:35] Phase 2.1.1.2 PBP: Clock Region Placement
+[14:44:14] Phase 2.1.1.3 PBP: Compute Congestion
+[14:44:14] Phase 2.1.1.4 PBP: UpdateTiming
+[14:45:17] Phase 2.1.1.5 PBP: Add part constraints
+[14:45:17] Phase 2.2 Physical Synthesis After Floorplan
+[14:46:52] Phase 2.3 Update Timing before SLR Path Opt
+[14:46:52] Phase 2.4 Post-Processing in Floorplanning
+[14:46:52] Phase 2.5 Global Placement Core
+[15:13:18] Phase 2.5.1 Physical Synthesis In Placer
+[15:23:20] Phase 3 Detail Placement
+[15:23:20] Phase 3.1 Commit Multi Column Macros
+[15:23:52] Phase 3.2 Commit Most Macros & LUTRAMs
+[15:28:37] Phase 3.3 Small Shape DP
+[15:28:37] Phase 3.3.1 Small Shape Clustering
+[15:29:41] Phase 3.3.2 Flow Legalize Slice Clusters
+[15:29:41] Phase 3.3.3 Slice Area Swap
+[15:30:12] Phase 3.3.3.1 Slice Area Swap Initial
+[15:33:54] Phase 3.4 Place Remaining
+[15:34:25] Phase 3.5 Re-assign LUT pins
+[15:36:32] Phase 3.6 Pipeline Register Optimization
+[15:36:32] Phase 3.7 Fast Optimization
+[15:39:11] Phase 4 Post Placement Optimization and Clean-Up
+[15:39:11] Phase 4.1 Post Commit Optimization
+[15:43:56] Phase 4.1.1 Post Placement Optimization
+[15:44:59] Phase 4.1.1.1 BUFG Insertion
+[15:44:59] Phase 1 Physical Synthesis Initialization
+[15:46:34] Phase 4.1.1.2 BUFG Replication
+[15:46:34] Phase 4.1.1.3 Post Placement Timing Optimization
+[15:53:26] Phase 4.1.1.4 Replication
+[15:56:05] Phase 4.2 Post Placement Cleanup
+[15:56:05] Phase 4.3 Placer Reporting
+[15:56:05] Phase 4.3.1 Print Estimated Congestion
+[15:56:37] Phase 4.4 Final Placement Cleanup
+[16:05:04] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 01h 46m 30s 
+
+[16:05:04] Starting logic routing..
+[16:08:14] Phase 1 Build RT Design
+[16:14:35] Phase 2 Router Initialization
+[16:14:35] Phase 2.1 Fix Topology Constraints
+[16:15:38] Phase 2.2 Pre Route Cleanup
+[16:16:42] Phase 2.3 Global Clock Net Routing
+[16:18:49] Phase 2.4 Update Timing
+[16:26:13] Phase 2.5 Update Timing for Bus Skew
+[16:26:13] Phase 2.5.1 Update Timing
+[16:30:28] Phase 3 Initial Routing
+[16:30:28] Phase 3.1 Global Routing
+[16:34:41] Phase 4 Rip-up And Reroute
+[16:34:41] Phase 4.1 Global Iteration 0
+[17:02:12] Phase 4.2 Global Iteration 1
+[17:10:07] Phase 4.3 Global Iteration 2
+[17:16:28] Phase 4.4 Global Iteration 3
+[17:22:16] Phase 4.5 Global Iteration 4
+[17:27:02] Phase 4.6 Global Iteration 5
+[17:30:12] Phase 5 Delay and Skew Optimization
+[17:30:12] Phase 5.1 Delay CleanUp
+[17:30:12] Phase 5.1.1 Update Timing
+[17:33:23] Phase 5.1.2 Update Timing
+[17:36:32] Phase 5.2 Clock Skew Optimization
+[17:38:07] Phase 6 Post Hold Fix
+[17:38:07] Phase 6.1 Hold Fix Iter
+[17:38:39] Phase 6.1.1 Update Timing
+[17:41:50] Phase 6.1.2 Lut RouteThru Assignment for hold
+[17:43:25] Phase 6.2 Additional Hold Fix
+[17:48:42] Phase 7 Leaf Clock Prog Delay Opt
+[17:55:34] Phase 7.1 Delay CleanUp
+[17:56:06] Phase 7.1.1 Update Timing
+[17:59:16] Phase 7.1.2 Update Timing
+[18:01:55] Phase 7.2 Hold Fix Iter
+[18:02:27] Phase 7.2.1 Update Timing
+[18:05:37] Phase 7.3 Additional Hold Fix
+[18:13:01] Phase 8 Route finalize
+[18:13:33] Phase 9 Verifying routed nets
+[18:14:36] Phase 10 Depositing Routes
+[18:16:43] Phase 11 Resolve XTalk
+[18:17:47] Phase 12 Post Router Timing
+[18:20:57] Phase 13 Physical Synthesis in Router
+[18:20:57] Phase 13.1 Physical Synthesis Initialization
+[18:24:39] Phase 13.2 Critical Path Optimization
+[18:27:17] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 02h 22m 13s 
+
+[18:27:17] Starting bitstream generation..
+Starting optional post-route physical design optimization.
+[18:46:52] Phase 1 Physical Synthesis Initialization
+[18:55:52] Phase 2 Critical Path Optimization
+Finished optional post-route physical design optimization.
+[19:40:39] Creating bitmap...
+[19:50:42] Writing bitstream ./level0_i_ulp_my_rm_partial.bit...
+[19:50:42] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 01h 23m 24s 
+[19:51:10] Run vpl: Step impl: Completed
+[19:51:12] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [19:51:13] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:05:58 ; elapsed = 06:50:37 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 89033 ; free virtual = 200833
+INFO: [v++ 60-1443] [19:51:13] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_01' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'ulp_ucs/aclk_kernel_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'hbm_aclk' (clock ID '') is being mapped to clock name 'hbm_aclk' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): System (SYSTEM) clock: hbm_aclk = 417, Kernel (KERNEL) clock: ulp_ucs/aclk_kernel_01 = 500, Kernel (DATA) clock: ulp_ucs/aclk_kernel_00 = 250
+INFO: [v++ 60-1453] Command Line: cf2sw -a /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/address_map.xml -sdsl /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/sdsl.dat -xclbin /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/xclbin_orig.xml -rtd /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.rtd -o /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [19:51:29] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 92149 ; free virtual = 203949
+INFO: [v++ 60-1443] [19:51:29] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section BITSTREAM:RAW:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.rtd --append-section :JSON:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_xml.rtd --add-section BUILD_METADATA:JSON:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_build.rtd --add-section EMBEDDED_METADATA:RAW:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml --add-section SYSTEM_METADATA:RAW:/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u280_gen3x16_xdma_1_202211_1 --output /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+XRT Build Version: 2.13.479 (2022.1)
+       Build Date: 2022-06-25 09:05:04
+          Hash ID: 5e92a513c6950e79638b1a879ddb882da34fc683
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 75583748 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 410 bytes
+Format : JSON
+File   : '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 13038 bytes
+Format : JSON
+File   : '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 1535268 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/Bert_layer.link.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 66746 bytes
+Format : RAW
+File   : '/work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (77246491 bytes) to the output file: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [19:51:29] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.56 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 92147 ; free virtual = 203950
+INFO: [v++ 60-1443] [19:51:29] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.info --input /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [19:51:30] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.82 ; elapsed = 00:00:01 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 92146 ; free virtual = 203949
+INFO: [v++ 60-1443] [19:51:30] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/link/run_link
+INFO: [v++ 60-1441] [19:51:30] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2306.129 ; gain = 0.000 ; free physical = 92147 ; free virtual = 203949
+INFO: [v++ 60-2331] SLR0 was specfied for compute unit Bert_layer_dataflow_region_1_1, and verified as such in implementation.
+INFO: [v++ 60-2331] SLR1 was specfied for compute unit Bert_layer_dataflow_region_2_1, and verified as such in implementation.
+INFO: [v++ 60-2331] SLR2 was specfied for compute unit Bert_layer_dataflow_region_3_1, and verified as such in implementation.
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/system_estimate_Bert_layer.link.xtxt
+INFO: [v++ 60-586] Created /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.ltx
+INFO: [v++ 60-586] Created ./build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/v++_link_Bert_layer.link_guidance.html
+	Timing Report: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link/vivado.log
+	Steps Log File: /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/_x.hw.xilinx_u280_gen3x16_xdma_1_202211_1/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /work/shared/users/ugrad/user_zjh/GPT_decoding_weight_offchip_24L/build_dir.hw.xilinx_u280_gen3x16_xdma_1_202211_1/Bert_layer.link.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 6h 56m 9s
